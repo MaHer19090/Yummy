@@ -1,0 +1,47 @@
+body{
+    background-color: #0d0d0d;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+/* Start Side Nav menu  */
+.side-nav-menu{
+    z-index: 99;
+}
+.nav-tab{
+    background-color: #0d0d0d;
+}
+.logo{
+    width: 50px;
+}
+i{
+    cursor: pointer;
+}
+/* End Side Nav menu  */
+/* Start Meal */
+.meal-layer{
+width: 100%;
+height: 100%;
+top: 100%;
+background-color: #f9f6f6ca;
+transition: .5s;
+}
+.meal:hover .meal-layer{
+top:0;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+.alert{
+    width: fit-content;
+}
+.loading{
+    z-index: 999;
+    display: flex;
+}
+.inner-loading{
+    display: flex;
+    position:absolute;
+    z-index: 9;
+    background-color: #0d0d0d;
+}
